@@ -39,7 +39,7 @@ Notebooks de plotagem dos resultados sumarizados:
 
 Para gerar o treinamento individual dos modelos, execute nos notebooks principais as etapas (1) a (4) e, para cada semente (42, 160, 198, 254 e 2026), execute (5) Execução e (6) Resultados. 
 
-Para observar os resultados sumarizados das sementes, execute o notebook plot_resultados_1_4_cartpole.ipynb relativo a cada simulador, que fará uso dos respectivos arquivos .txt de saída dos treinamentos individuais.
+Para observar os resultados sumarizados das sementes, execute o notebook plot_resultados relativo a cada simulador, que fará uso dos respectivos arquivos .txt de saída dos treinamentos individuais.
 
 
 
