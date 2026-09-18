@@ -1,10 +1,38 @@
 # kan-experiments
 
-Artigo: Redes de Kolmogorov–Arnold: Uma Avaliação Experimental com LunarLander
+Redes de Kolmogorov–Arnold: Uma Avaliação Experimental
 
 Autor: Renato França de Almeida - PPGEEC EMC/UFG
 
-Notebooks de implementação de experimentos em DRL realizados com MLP e redes derivadas da KAN usando ambiente LunarLander-v3:
-#### LunarLanderMLP_9_10.ipynb: implementação MLP (Multilayer Perceptron)
-#### LunarLanderFastKAN_10_4.ipynb: implementação FastKAN (Fast Kolmogorov-Arnold)
-#### LunarLanderKKAN_2_7.ipynb: implementação KKAN (Kurkova-Kolmogorov-Arnold)
+Implementação dos experimentos em DRL realizados com MLP (Multilayer Perceptron) e redes derivadas da KAN – FastKAN (Fast Kolmogorov-Arnold Network) e KKAN (Kurková-Kolmogorov-Arnold Network) – utilizando os simuladores LunarLander-v3 e CartPole-v1. Esses notebooks fundamentam a pesquisa desenvolvida no Programa de Pós-graduação em Engenharia Elétrica e de Computação (PPGEEC) da Universidade Federal de Goiás (UFG) que fundamenta Dissertação de Mestrado deste Programa e Artigo Científico submetido ao CBA 2026 - Congresso Brasileiro de Automática (https://sites.usp.br/cba2026/).
+
+### LunarLander-v3
+Notebooks de treinamento individual:
+#### LunarLander/LunarLanderMLP_9_18.ipynb
+#### LunarLander/LunarLanderFastKAN_10_14.ipynb
+#### LunarLander/LunarLanderKKAN_2_16.ipynb
+Notebooks de plotagem dos resultados sumarizados:
+#### LunarLander/plot/mlp-saida.txt
+#### LunarLander/plot/fastkan-saida.txt
+#### LunarLander/plot/kkan-saida.txt
+#### LunarLander/plot/plot_resultados_1_4_cartpole.ipynb
+
+### CartPole-v1
+Notebooks de treinamento individual:
+#### CartPole/CartPoleMLP_1_7.ipynb
+#### CartPole/CartPoleFastKAN_1_9.ipynb
+#### CartPole/CartPoleKKAN_1_7.ipynb
+Notebooks de plotagem dos resultados sumarizados:
+#### CartPole/plot/mlp-saida.txt
+#### CartPole/plot/fastkan-saida.txt
+#### CartPole/plot/kkan-saida.txt
+#### CartPole/plot/plot_resultados_1_4_cartpole.ipynb
+
+Para gerar o treinamento individual dos modelos, execute nos notebooks principais as etapas (1) a (4) e, para cada semente (42, 160, 198, 254 e 2026), execute (5) Execução e (6) Resultados. 
+
+Para observar os resultados sumarizados das sementes, execute o notebook plot_resultados_1_4_cartpole.ipynb relativo a cada simulador, que fará uso dos respectivos arquivos .txt de saída dos treinamentos individuais.
+
+
+
+
+
